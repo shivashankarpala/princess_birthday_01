@@ -44,7 +44,7 @@ p {
 
 .name {
    vertical-align: middle;
-   margin-top: 6px;
+   margin-top: 8px;
    margin-left: 10px;
    font-weight: 700;
    font-size: 30px;
@@ -54,7 +54,7 @@ p {
    font-weight: 500;
    color: rgba(96, 96, 96, 0.9) ;
    font-size: 15px;
-   margin-top: 3px;
+   margin-top: 4px;
    margin-bottom: 7px;
    margin-left: 10px;
 }
@@ -62,7 +62,7 @@ p {
 .add-cart-button {
    background-color: rgba(45, 131, 245, 0.877);
    color: white;
-   font-size: 15px;
+   font-size: 20px;
    margin-bottom: -2px;
    height: 60px;
    width: 100%;
