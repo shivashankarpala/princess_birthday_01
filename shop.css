@@ -1,3 +1,17 @@
+html
+{
+   height: -webkit-fill-available;          
+}
+         
+body
+{  
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   height: -webkit-fill-available;  
+}
+
+
 .flexbox {
    display: flex;
    flex-direction: row;
