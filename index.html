@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<//meta http-equiv="refresh" content="10; url = poem.html" />
+<meta http-equiv="refresh" content="10; url = poem.html" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>1 year closer to damnation</title>
    <link type="scr">
@@ -13,7 +13,8 @@
          height: -webkit-fill-available;  
       }
       body
-      {
+      {  margin: 0;
+         padding: 0;
          display: flex;
          flex-direction: column;
          height: 100vh;
@@ -39,7 +40,7 @@
          display: grid;
          grid-template-columns: 1fr 1fr;
          position: absolute;
-         bottom: 10%;
+         bottom: 15%;
          left: 50%;
          transform: translate(-50%, -50%);
          margin: auto;
@@ -47,13 +48,13 @@
 
       .img_main
       {
-         width: 700px;
+         width: 250px;
       }
 
       .img_bg
       {  
          display: inline;
-         width: 150px;
+         width: 70px;
       }
 
       canvas 
@@ -68,20 +69,20 @@
       .balloon_a, .balloon_b
       {  
          display: inline;
-         width: 400px;
-         position: absolute;
+         width: 10px;
+         position: relative;
          bottom: 10%;
       }
 
       .balloon_a
       {
-         position: absolute;
+         position: relative;
          left: 2%;
       }
 
       .balloon_b
       {
-         position: absolute;
+         position: relative;
          right: 2%;
       }
       

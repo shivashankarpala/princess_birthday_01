@@ -18,31 +18,37 @@
             height: -webkit-fill-available;  
          }
 
-         img
-         {
-            margin: 0;
-         }
-
-         .warp
-         {  width:auto;
-            display: flex;
-            flex-direction: row;  
+         .img_div
+         {  
+            display: block;
+            position:fixed;
+            left: 50%;
+            transform: translate(-50%);
          }
 
          .img
+         {  
+            display: block;
+            width: 300px;
+         }
+
+         .content
          {
-            left: 30%;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
          }
 
          .txt
-         {
-            display: flex;
-            text-align: center;
+         {  
+
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 600;
             font-size: 16px;
-            position: relative;
-            left: 10%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
          }
 
          .proceed {
@@ -58,9 +64,7 @@
             border-top-left-radius: 12px;
             border-bottom-right-radius: 12px;
             border-bottom-left-radius: 12px;
-
             position: relative;
-            left: 10%;
          }
 
          .proceed:active {
@@ -70,13 +74,16 @@
       </style>
    </head>
    <body>
-      <div class="wrap">
-         <div class="img">
-            <img src="misc/birthday-boy.png">
-         </div>
+
+      <div class="img_div">
+         <img class="img" src="misc/birthday-boy.png">
+      </div>
+
+      <div class="content">
+
          <div class="txt">
             Well Well Well.....!!! <br>
-            Its unwrapping time <br>
+            Its unwrapping time
          </div>
 
          <a href="shop.html">
