@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<//meta http-equiv="refresh" content="10; url = poem.html" />
+<meta http-equiv="refresh" content="10; url = poem.html" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>1 year closer to damnation</title>
    <link type="scr">
    <canvas id="canvas" class="over-img"></canvas>
    <style>
-      html,body
+
+      html
       {
-         min-height: 100%;
+         height: -webkit-fill-available;  
+      }
+      body
+      {
+         display: flex;
+         flex-direction: column;
+         height: 100vh;
+         height: -webkit-fill-available;   
+      }
+
+      main
+      {
+         flex: 1;
+         overflow: scroll;
       }
 
       .mainbg
@@ -43,6 +57,7 @@
          overflow-y: hidden;
          overflow-x: hidden;
          width: 100%;
+         height: 100vh;
          margin: 0;
       }  
 
@@ -70,6 +85,7 @@
 </head>
 
 <body>
+   <main>
    <script src="confetti.js"></script>
 
    <div class="mainbg">
@@ -88,5 +104,6 @@
    <marquee direction="up" scrollamount="2">
       <img class="balloon_b" src="misc/balloons.png">
    </marquee>
+</main>
 </body>
 </html>
