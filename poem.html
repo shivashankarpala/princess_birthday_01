@@ -2,7 +2,7 @@
 <html>
    <head>
       <title>M'lady</title>
-      <meta http-equiv="refresh" content="30; url = gifts.html" />
+   <meta http-equiv="refresh" content="30; url = gifts.html" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +16,13 @@
          
          body
          {  
+            background: url(misc/bg.jpg) no-repeat center center;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -100;
+            
             display: flex;
             flex-direction: column;
             height: 100vh;
@@ -27,22 +34,15 @@
          p
          {
             font-family: "Edu VIC WA NT Beginner";
-            font-size: 30px;
+            font-size: 15px;
             font-weight: 700;
             display: inline;
          } 
 
          .main
          {
-            position: relative;
             text-align: center;
             color: rgb(233, 233, 233);
-            width: 100%;
-         }
-
-         .img
-         {
-            width: 100%;
          }
 
          .txt
@@ -58,7 +58,6 @@
 
    <body>
       <div class="main">
-      <img class="img" src="misc/bg_a.jpg" >
       <div class="txt_div">
       <p class="txt">
          Wishing you a Birthday That's <br>
