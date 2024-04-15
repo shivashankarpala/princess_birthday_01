@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<//meta http-equiv="refresh" content="10; url = poem.html" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>1 year closer to damnation</title>
+   <link type="scr">
+   <canvas id="canvas" class="over-img"></canvas>
+   <style>
+      html,body
+      {
+         min-height: 100%;
+      }
+
+      .mainbg
+      {  
+         width: auto;
+         position: absolute;
+         top: 10%;
+         left: 37%;
+      }
+
+      .bg
+      {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         position: absolute;
+         bottom: 10%;
+         left: 50%;
+         right: 50%;
+         transform: translate(-50%, 50%);
+         margin: auto;
+      }
+
+      .img_bg
+      {  
+         display: inline;
+         width: 55px;
+      }
+
+      canvas 
+      {
+         overflow-y: hidden;
+         overflow-x: hidden;
+         width: 100%;
+         margin: 0;
+      }  
+
+      .balloon_a, .balloon_b
+      {  
+         display: inline;
+         width: 400px;
+         position: absolute;
+         bottom: 10%;
+      }
+
+      .balloon_a
+      {
+         position: absolute;
+         left: 2%;
+      }
+
+      .balloon_b
+      {
+         position: absolute;
+         right: 2%;
+      }
+      
+   </style>
+</head>
+
+<body>
+   <script src="confetti.js"></script>
+
+   <div class="mainbg">
+      <img class="img_main" src="misc/happy-birthday-basic.png">
+   </div>
+
+   <div class="bg">
+      <img class="img_bg" src="misc/one.png">
+      <img class="img_bg" src="misc/eight.png">
+   </div>
+
+   <marquee direction="up" behaviour="scroll" scrollamount="12">
+      <img class="balloon_a" src="misc/balloons.png">
+   </marquee>
+   
+   <marquee direction="up" scrollamount="2">
+      <img class="balloon_b" src="misc/balloons.png">
+   </marquee>
+</body>
+</html>
