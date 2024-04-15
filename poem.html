@@ -20,6 +20,8 @@
             flex-direction: column;
             height: 100vh;
             height: -webkit-fill-available;  
+            margin: 0;
+            padding: 0;
          }
 
          p
@@ -38,12 +40,17 @@
             width: 100%;
          }
 
+         .img
+         {
+            width: 100%;
+         }
+
          .txt
          {
-            position: absolute;
+            position: fixed;
             top: 50%;
-            bottom: 50%;
-            transform: translate(-50%, 50%);
+            left: 50%;
+            transform: translate(-50%, -50%);
          }
 
       </style>
@@ -51,7 +58,7 @@
 
    <body>
       <div class="main">
-      <img class="img" src="misc/bg.jpg" >
+      <img class="img" src="misc/bg_a.jpg" >
       <div class="txt_div">
       <p class="txt">
          Wishing you a Birthday That's <br>
